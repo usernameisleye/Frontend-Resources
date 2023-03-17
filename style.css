@@ -28,7 +28,6 @@ img{
 body{
   background-color: #111827;
   color: #FFF;
-  overflow-x: hidden;
 }
 /* Group of flexed components */
 nav, nav ul, .hero, .top, .top a, .all-resources, .all-resources ul li, .all-resources a, footer{
@@ -87,7 +86,7 @@ nav ul li a:hover{
   background-color: #111827;
   position: absolute;
   filter: blur(15px);
-  width: 100vw;
+  width: 110vw;
   height: 5rem;
   bottom: -5%;
 }
@@ -190,11 +189,11 @@ footer a{
     position: absolute;
     height: 40vh;
     width: 100vw;
-    right: -100%;
+    left: -100%;
     top: 5rem;
   }
   nav ul.show{
-    right: 0;
+    left: 0;
   }
   .hero h1{
     font-size: 2rem;
